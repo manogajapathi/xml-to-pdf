@@ -24,14 +24,14 @@ public class PDFGenerator {
 	public static final String OUTPUT_DIR;
 	
 	static {
-		RESOURCES_DIR = "src//main//resources//";
-		OUTPUT_DIR = "src//main//resources//output//";
+		RESOURCES_DIR = "src//main//resources//sample//";
+		OUTPUT_DIR = "src//main//resources//sample//";
 	}
 	
 	public static void main(String[] args) {
 		PDFGenerator pdfGenerator = new PDFGenerator();
 		try {
-			pdfGenerator.convertToFO();
+			pdfGenerator.convertToPDF();
 		} catch (FOPException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -55,8 +55,8 @@ public class PDFGenerator {
 		// the XSL FO file
 		File xsltFile = new File(RESOURCES_DIR + "//template.xsl");
 		// the XML file which provides the input
-		StreamSource xmlSource = new StreamSource(new File(RESOURCES_DIR + "//Employees.xml"));
-		// create an instance of fop factory
+		StreamSource xmlSource = new StreamSource(new File(RESOURCES_DIR + "//employees.xml"));
+		// create an instance of FOP factory
 		FopFactory fopFactory = FopFactory.newInstance(new File(".").toURI());
 		// a user agent is needed for transformation
 		FOUserAgent foUserAgent = fopFactory.newFOUserAgent();
@@ -65,7 +65,7 @@ public class PDFGenerator {
 		out = new java.io.FileOutputStream(OUTPUT_DIR + "//employee.pdf");
 
 		try {
-			// Construct fop with desired output format
+			// Construct FOP with desired output format
 			Fop fop = fopFactory.newFop(MimeConstants.MIME_PDF, foUserAgent, out);
 
 			// Setup XSLT
@@ -96,14 +96,8 @@ public class PDFGenerator {
 		// the XSL FO file
 		File xsltFile = new File(RESOURCES_DIR + "//template.xsl");
 
-		/*
-		 * TransformerFactory factory = TransformerFactory.newInstance();
-		 * Transformer transformer = factory.newTransformer(new
-		 * StreamSource("F:\\Temp\\template.xsl"));
-		 */
-
 		// the XML file which provides the input
-		StreamSource xmlSource = new StreamSource(new File(RESOURCES_DIR + "//Employees.xml"));
+		StreamSource xmlSource = new StreamSource(new File(RESOURCES_DIR + "//employees.xml"));
 
 		// a user agent is needed for transformation
 		/* FOUserAgent foUserAgent = fopFactory.newFOUserAgent(); */
