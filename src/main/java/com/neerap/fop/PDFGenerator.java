@@ -55,14 +55,14 @@ public class PDFGenerator {
 		// the XSL FO file
 		File xsltFile = new File(RESOURCES_DIR + "//template.xsl");
 		// the XML file which provides the input
-		StreamSource xmlSource = new StreamSource(new File(RESOURCES_DIR + "//employees.xml"));
+		StreamSource xmlSource = new StreamSource(new File(RESOURCES_DIR + "//input.xml"));
 		// create an instance of FOP factory
 		FopFactory fopFactory = FopFactory.newInstance(new File(".").toURI());
 		// a user agent is needed for transformation
 		FOUserAgent foUserAgent = fopFactory.newFOUserAgent();
 		// Setup output
 		OutputStream out;
-		out = new java.io.FileOutputStream(OUTPUT_DIR + "//employee.pdf");
+		out = new java.io.FileOutputStream(OUTPUT_DIR + "//output.pdf");
 
 		try {
 			// Construct FOP with desired output format
@@ -97,7 +97,7 @@ public class PDFGenerator {
 		File xsltFile = new File(RESOURCES_DIR + "//template.xsl");
 
 		// the XML file which provides the input
-		StreamSource xmlSource = new StreamSource(new File(RESOURCES_DIR + "//employees.xml"));
+		StreamSource xmlSource = new StreamSource(new File(RESOURCES_DIR + "//input.xml"));
 
 		// a user agent is needed for transformation
 		/* FOUserAgent foUserAgent = fopFactory.newFOUserAgent(); */

@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2010, v.4002-->
+<!DOCTYPE dmodule [
+<!ENTITY ICN-PGT-A-HA1-40-00-U8025-00001-A-026-01 SYSTEM "ICN-PGT-A-HA1-40-00-U8025-00001-A-026-01.cgm" NDATA cgm>
+<!NOTATION dwg SYSTEM "dwg">
+<!ENTITY ICN-FDN-A-HJ3-00-00-U8025-00001-A-110-01 SYSTEM "ICN-FDN-A-HJ3-00-00-U8025-00001-A-110-01.cgm">
+<!NOTATION cgm SYSTEM "cgm">
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-0/xml_schema_flat/ipd.xsd"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/">
+<rdf:Description>
+<dc:creator>U8025</dc:creator>
+<dc:title>GEK 50506-42 (Figure 4-2)</dc:title>
+<dc:subject>Portable Lube Cart, 1C8092 (Sheet 1 of 2)</dc:subject>
+<dc:publisher>U8025</dc:publisher>
+<dc:contributor>U8025</dc:contributor>
+<dc:date>2019-06-25</dc:date>
+<dc:type>text</dc:type>
+<dc:format>text/xml</dc:format>
+<dc:identifier>DMC-PGT-A-HA1-40-00-00A-075C-A</dc:identifier>
+<dc:language>en-US</dc:language>
+<dc:rights>01_cc51_cv51</dc:rights>
+</rdf:Description>
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A"
+infoCode="075" infoCodeVariant="C" itemLocationCode="A"
+modelIdentCode="PGT" subSubSystemCode="0" subSystemCode="4"
+systemCode="HA1" systemDiffCode="A"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+<issueInfo inWork="00" issueNumber="001"/></dmIdent>
+<dmAddressItems>
+<issueDate day="25" month="06" year="2019"/>
+<dmTitle>
+<techName>GEK 50506-42 (Figure 4-2)</techName>
+<infoName>Portable Lube Cart, 1C8092 (Sheet 1 of 2)</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus>
+<security caveat="cv51" commercialClassification="cc51"
+securityClassification="01"/>
+<dataRestrictions>
+<restrictionInstructions>
+<dataDistribution>To be made available to all S1000D users.</dataDistribution>
+<exportControl>
+<exportRegistrationStmt>
+<simplePara>Export of this data module to all countries that are the
+residence of organizations that are users of S1000D is permitted.
+Storage of this data module is to be at the discretion of the organization.</simplePara>
+</exportRegistrationStmt>
+</exportControl>
+<dataHandling>There are no specific handling instructions for this
+data module.</dataHandling>
+<dataDestruction>Users may destroy this data module in accordance
+with their own local procedures.</dataDestruction>
+<dataDisclosure>There are no dissemination limitations that apply
+to this data module.</dataDisclosure>
+</restrictionInstructions>
+<restrictionInfo>
+<copyright>
+<copyrightPara><emphasis>Copyright (C) 2008</emphasis> by each of
+the following organizations:<randomList>
+<listItem>
+<para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+</listItem>
+<listItem>
+<para>Ministries of Defence of the member countries of ASD.</para>
+</listItem>
+</randomList></copyrightPara>
+<copyrightPara><emphasis>Limitations of Liability:</emphasis></copyrightPara>
+<copyrightPara><randomList>
+<listItem>
+<para>This material is provided "As Is" and neither ASD nor any person
+who has contributed to the creation, revision or maintenance of the
+material makes any representations or warranties, express or implied,
+including but not limited to, warranties of merchantability or fitness
+for any particular purpose.</para>
+</listItem>
+<listItem>
+<para>Neither ASD nor any person who has contributed to the creation,
+revision or maintenance of this material shall be liable for any direct,
+indirect, special or consequential damages or any other liability
+arising from any use of this material.</para>
+</listItem>
+<listItem>
+<para>Revisions to this document may occur after its issuance.  The
+user is responsible for determining if revisions to the material contained
+in this document have occurred and are applicable.</para>
+</listItem>
+</randomList></copyrightPara>
+</copyright>
+<policyStatement>TPSMG TOR 001</policyStatement>
+<dataConds>There are no known conditions that would change the data
+restrictions for, or security classification of, this data module.</dataConds>
+</restrictionInfo>
+</dataRestrictions>
+<responsiblePartnerCompany>
+<enterpriseName>PGT</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="PGT"></originator>
+<applic>
+<displayText>
+<simplePara>All</simplePara>
+</displayText>
+</applic>
+<techStandard>
+<authorityInfoAndTp>
+<authorityInfo>20010131</authorityInfo>
+<techPubBase>Description</techPubBase>
+</authorityInfoAndTp>
+<authorityExceptions></authorityExceptions>
+<authorityNotes></authorityNotes>
+</techStandard>
+<brexDmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode assyCode="0301" disassyCode="00" disassyCodeVariant="A"
+infoCode="022" infoCodeVariant="A" itemLocationCode="D"
+modelIdentCode="S1000D" subSubSystemCode="0" subSystemCode="1"
+systemCode="04" systemDiffCode="A"/></dmRefIdent>
+<dmRefAddressItems></dmRefAddressItems>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<firstVerification verificationType="tabtop"/></qualityAssurance>
+<systemBreakdownCode>HA1</systemBreakdownCode>
+<skillLevel skillLevelCode="sk01"/>
+<reasonForUpdate>
+<simplePara>totally revised</simplePara>
+<simplePara>Schema Description</simplePara>
+</reasonForUpdate>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<illustratedPartsCatalog>
+<figure>
+<title>Portable Lube Cart, 1C8092 (Sheet 1 of 2)</title>
+<graphic infoEntityIdent="ICN-PGT-A-HA1-40-00-U8025-00001-A-026-01"
+xlink:href="ICN:ICN-PGT-A-HA1-40-00-U8025-00001-A-026-01.cgm"></graphic>
+</figure>
+<catalogSeqNumber catalogSeqNumberValue="1" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>1C8092G01</partNumber>
+<partIdentSegment>
+<descrForPart>ASSEMBLY </descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="2" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>9442M83G01</partNumber>
+<partIdentSegment>
+<descrForPart>RESERVOIR</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="3" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>9442M68G01</partNumber>
+<partIdentSegment>
+<descrForPart>PUMP</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="4" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>1C8092P04</partNumber>
+<partIdentSegment>
+<descrForPart>STORAGE BOX</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="5" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart>REGULATING VALVE</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="6" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>1C8092P06</partNumber>
+<partIdentSegment>
+<descrForPart>MAIN POWER CABLE</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="7" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>1C8092P07</partNumber>
+<partIdentSegment>
+<descrForPart>HOSE</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="8" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>1C8092P08</partNumber>
+<partIdentSegment>
+<descrForPart>HOSE</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="9" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>1C8092P09</partNumber>
+<partIdentSegment>
+<descrForPart>HOSE</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="10" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>1C8092P10</partNumber>
+<partIdentSegment>
+<descrForPart>HOSES</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="11" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>1C8092P11</partNumber>
+<partIdentSegment>
+<descrForPart>HOSE (DRAIN)</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="12" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>1C8092P12</partNumber>
+<partIdentSegment>
+<descrForPart>HOSE</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="13" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>1C8092P13</partNumber>
+<partIdentSegment>
+<descrForPart>RESERVOIR POWER CABLE </descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="14" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>MS51534816-12</partNumber>
+<partIdentSegment>
+<descrForPart>REDUCER</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="15" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>AN919-19D</partNumber>
+<partIdentSegment>
+<descrForPart>REDUCER</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="16" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>AN919-18D</partNumber>
+<partIdentSegment>
+<descrForPart>REDUCER</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="17" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>AN919-16D</partNumber>
+<partIdentSegment>
+<descrForPart>REDUCER</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="18" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>MS51531-B165</partNumber>
+<partIdentSegment>
+<descrForPart>NUT</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="19" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart>BALL VALVE</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="20" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>1C8092P20</partNumber>
+<partIdentSegment>
+<descrForPart>HOSE</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="21" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>MS51532B20S</partNumber>
+<partIdentSegment>
+<descrForPart>CAP</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="22" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>MS51518B16S</partNumber>
+<partIdentSegment>
+<descrForPart>PLUG</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="23" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>MS51521B6S</partNumber>
+<partIdentSegment>
+<descrForPart>ELBOW 90º SWIVEL</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="24" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>MS51525B8S</partNumber>
+<partIdentSegment>
+<descrForPart>CONNECTOR</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="25" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>MS9387-08</partNumber>
+<partIdentSegment>
+<descrForPart>PERFORMED PACKING</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="26" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>1C8092P28</partNumber>
+<partIdentSegment>
+<descrForPart>CONNECTOR</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="27" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>MS9387-10</partNumber>
+<partIdentSegment>
+<descrForPart>PERFORMED PACKING</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="28" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>1C8092P28</partNumber>
+<partIdentSegment>
+<descrForPart>CONNECTOR</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="29" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>1MS9387-12</partNumber>
+<partIdentSegment>
+<descrForPart>PERFORMED PACKING</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="30" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>3010606-8-8-8-72</partNumber>
+<partIdentSegment>
+<descrForPart>HOSE</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="31" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart>FILLER CAP</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="32" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart>OIL LEVEL INDICATOR</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="33" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart>ON/OFF SWITCH</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="34" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart>TEMPERATURE CONTROLLER</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="35" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart>INPUT POWER</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="36" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart>TEMPERATURE INDICATOR</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="37" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart>FLOW-RATE INDICATOR</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="38" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart>MOTOR RESET BUTTON </descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="39" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart>PHASE REVERSAL SWITCH</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="40" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart> PHASE REVERSAL LAMP</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="41" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart>FUSE</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="42" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart>LIGHTED STOP/START SWITC</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+<catalogSeqNumber catalogSeqNumberValue="43" indenture="0">
+<itemSequenceNumber itemSeqNumberValue="">
+<quantityPerNextHigherAssy>-</quantityPerNextHigherAssy>
+<manufacturerCode>-</manufacturerCode>
+<partNumber>-</partNumber>
+<partIdentSegment>
+<descrForPart>SUPPLY PRESSURE GAGE</descrForPart>
+</partIdentSegment>
+<locationRcmdSegment>
+<locationRcmd>
+<service></service>
+<sourceMaintRecoverability></sourceMaintRecoverability>
+</locationRcmd>
+</locationRcmdSegment>
+</itemSequenceNumber>
+</catalogSeqNumber>
+</illustratedPartsCatalog>
+</content>
+</dmodule>
